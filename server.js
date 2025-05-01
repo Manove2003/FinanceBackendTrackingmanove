@@ -20,7 +20,7 @@ cloudinary.config({
 const app = express();
 const corsOptions = {
   origin: [
-    "https://finance-tracker-version-2.vercel.app",
+    "https://finance-trackerx0.vercel.app/dashboard",
     "http://localhost:5173",
   ],
   methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
