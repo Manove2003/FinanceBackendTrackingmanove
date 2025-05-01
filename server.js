@@ -20,9 +20,8 @@ cloudinary.config({
 const app = express();
 const corsOptions = {
   origin: [
-    "https://finance-trackerx0.vercel.app/dashboard",
-    "http://localhost:5173",
     "https://strong-griffin-d655ec.netlify.app/",
+    "http://localhost:5173",
   ],
   methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization", "x-skip-redirect"],
